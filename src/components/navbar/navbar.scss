@@ -1,0 +1,35 @@
+.navbar{
+    background-color: steelblue;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    .left{
+        span{
+            cursor: pointer;
+            padding: 20px;
+            &:hover{
+                background-color: aqua;
+            }
+        }
+    }
+    .right{
+        ul{
+            list-style: none;
+            
+            li{
+                display: inline;
+                margin-left: 30px;
+                cursor: pointer;
+                padding: 20px;
+                &:hover{
+                    background-color: aqua;
+                }
+                
+            }
+        }
+    }
+}
